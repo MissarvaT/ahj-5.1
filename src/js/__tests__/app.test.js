@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import puppetteer from 'puppeteer';
 
 jest.setTimeout(30000);
@@ -27,4 +28,3 @@ describe('popover work', () => {
     });
   });
 });
-
